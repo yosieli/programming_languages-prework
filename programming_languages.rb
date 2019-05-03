@@ -10,3 +10,16 @@ end
 new_languages
 end
 
+languages = {
+  :oo => {
+    :ruby => {
+      :type => "interpreted"
+    },
+    :javascript => {
+      :type => "interpreted"
+    }
+  }
+}
+
+reformat_languages(languages)
+
